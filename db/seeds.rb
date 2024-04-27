@@ -19,7 +19,7 @@
 #Tag.create!(title: "Viral")
 #Tag.create!(title: "En casa")
 #Tag.create!(title: "Meditacion")
-#Tag.create!(title: "Alimentacion")
+Tag.create!(title: "Alimentacion")
 
 user = User.find(71)
 tag = Tag.find(36)
